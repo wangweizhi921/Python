@@ -40,7 +40,7 @@ if __name__ == "__main__":
     ui = Ui_Main.Ui_MainWindow()
     ui.setupUi(Window)
     Window.show()
-    # print(dir(Window.buttom))
+    print(dir(Window.buttom))
     sys.exit(App.exec())
     
     
